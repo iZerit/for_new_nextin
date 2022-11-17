@@ -11,7 +11,7 @@
 
 .first_icon{
     background: rgb(34, 34, 73) none repeat scroll 0 0;
-    color: red;
+    color: #ff1d1d;
     float: left;
     font-size: 40px;
     height: 80px;
@@ -42,5 +42,5 @@
 
 .first_card:hover .first_icon{
     color: rgb(34, 34, 73) ;
-    background: red none repeat scroll 0 0;
+    background: #ff1d1d none repeat scroll 0 0;
 }
