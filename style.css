@@ -22,7 +22,7 @@
     margin-left: 10px;
     margin-top: 10px;
     position: relative;
-    transition: .4s;
+    transition: .3s;
 }
 
 .first_icon::before{
@@ -41,6 +41,6 @@
 }
 
 .first_card:hover .first_icon{
-    color: rgb(34, 34, 73) ;
+    color: rgb(34, 34, 73);
     background: #ff1d1d none repeat scroll 0 0;
 }
