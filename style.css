@@ -44,3 +44,14 @@
     color: rgb(34, 34, 73);
     background: #ff1d1d none repeat scroll 0 0;
 }
+
+
+.service_sec_but{
+    padding: 10px;
+    background-color: #b2c0cd;
+}
+
+.service_sec_but:hover{
+    background-color: #b2c0cd;
+
+}
