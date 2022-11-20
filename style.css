@@ -34,6 +34,7 @@
     z-index: -1;
 }
 
+
 .icon_title h3{
     text-transform: uppercase;
     font-size: 24px;
@@ -46,11 +47,12 @@
 
 
 .service_sec_but{
-    padding: 10px;
+    padding: 9px;
     background-color: #b2c0cd;
+    border: none;
 }
 
 .service_sec_but:hover{
     background-color: #b2c0cd;
-
+    border: none;
 }
