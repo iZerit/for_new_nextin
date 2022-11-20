@@ -10,16 +10,15 @@
 }
 
 .first_icon{
-    background: rgb(34, 34, 73) none repeat scroll 0 0;
+    background: rgb(34, 34, 73);
     color: #ff1d1d;
     font-size: 30px;
     width: 80px;
     height: 80px;
     line-height: 80px;
-    margin-right: 20px;
+    margin: 10px 20px 0 10px;
+
     text-align: center;
-    margin-left: 10px;
-    margin-top: 10px;
     position: relative;
     transition: .6s;
 }
@@ -42,7 +41,7 @@
 
 .first_card:hover .first_icon{
     color: rgb(34, 34, 73);
-    background: #ff1d1d none repeat scroll 0 0;
+    background: #ff1d1d;
 }
 
 
