@@ -17,6 +17,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="icon" href="./img/ol_logo-1140x380.png">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/imask"></script>
 
     <link rel="stylesheet" href="style.css">
@@ -183,7 +184,7 @@
             <div class="d-flex row justify-content-between">
                 <div class="form_inner col-lg-6 col-md-6 col-sm-12">
                     <form action="" class="form">
-                        <h1 class="text-center">Biz bilan bo'lanish</h1>
+                        <h1 class="text-center">Biz bilan bog'lanish</h1>
                         <div class="form_input">
                             <input type="text" placeholder="ism" class="form-control ">
                         </div>
@@ -196,12 +197,12 @@
 
                         <div class="form_buttons d-flex justify-content-between">
                             <button class="form_button btn service_sec_but mt-3 mb-3">Yuborish</button> 
-                            <!-- <button id="for_map_but" type="button" class="form_button btn service_sec_but mt-3 mb-3 form_second_button">Xaritada ko'rish</button> -->
+                            <button   onclick="buttonClicked()" type="button" data-toggle="collapse" class="form_button btn service_sec_but mt-3 mb-3 form_second_button">Xaritada ko'rish</button>
                         </div>
                 
                     </form>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 map_div">
+                <div class="col-lg-6 col-md-6 col-sm-12 map_div" id="map_divv">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3034.030424742!2d68.78392958808288!3d40.496710258671555!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b2079301e3e545%3A0x67b3be6678bbe496!2sBarkamol%20Avlod%20Bolalar%20Markazi!5e0!3m2!1suz!2s!4v1669308984576!5m2!1suz!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>

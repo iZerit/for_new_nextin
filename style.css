@@ -115,9 +115,9 @@ iframe{
 
 
 @media (max-width:991px) {
-    /* .map_div{
+    .map_div{
         display: none;
-    } */
+    }
     .form_second_button{
         display: block;
     }
