@@ -103,7 +103,9 @@ iframe{
 
 
 
-
+.hide_map{
+    display: none;
+}
 
 
 

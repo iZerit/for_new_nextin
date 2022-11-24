@@ -5,12 +5,22 @@ var phoneMask = IMask(
 
 
 
-    function buttonClicked() {
-        const hideDiv = document.getElementById('map_divv')
-        if(hideDiv.style.display == 'none'){
-            $("#map_divv").show();
-        }else{
-            $("#map_divv").hide();
+    $(document).ready(function(){
 
-        }
-        }
+
+        $("#show_div_but").click(function(){
+            $("#map_divv").show();
+            $("#show_div_but").hide();
+            $("#hide_div_but").show();
+        });
+
+        $("#hide_div_but").click(function(){
+            $("#show_div_but").show();
+            $("#map_divv").hide();
+            $("#hide_div_but").hide();
+
+        })
+
+
+        
+      });
