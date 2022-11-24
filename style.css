@@ -49,13 +49,16 @@
 
 .service_sec_but{
     padding: 9px;
-    background-color: #b2c0cd;
+    background-color: rgb(34, 34, 73);
     border: none;
+    color:white;
+    transition: all .4s ease;
 }
 
 .service_sec_but:hover{
-    background-color: #b2c0cd;
+    background-color: #ff1d1d;
     border: none;
+    color: rgb(34, 34, 73);
 }
 
 
@@ -93,6 +96,10 @@ iframe{
 
 
 
+
+.form_span{
+    font-size: 12px;
+}
 
 
 
