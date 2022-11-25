@@ -37,16 +37,10 @@
 
 <body>
 
-
 <!-- scrool to top  -->
-
-<!-- Back to top button -->
 <button type="button" class="btn to_top_btn btn-floating btn-lg" id="btn-back-to-top">
     <i class="fas fa-arrow-up"></i>
   </button>
-  
- 
-
 <!-- scrool to top  -->
 
 
@@ -60,11 +54,12 @@
 
 
 
-    <header class="site-header sticky-top"  id="Home">
+
+    <header class="site-header  sticky-top"  id="Home">
         <nav class="navbar navbar-light">
           <div class="container">
             <a class="logo-img" href="#"><img class="img-fluid" src="./img/logo.png" alt=""></a>
-            <button class="shadow-none navbar-toggler navbar-toggler-but custom-toggler" type="button" data-bs-toggle="offcanvas"
+            <button disabled class="shadow-none navbar-toggler navbar-toggler-but custom-toggler" type="button" data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -117,11 +112,13 @@
                 </div>
             </div>
             <div class="scrool_div mb-5 ">
-                <div class="scrool_down">
-                    <div class="chevron "></div>
+                <div class="scrool_down" id="scrool_bottom">
+                    <div class="chevron"></div>
                     <div class="chevron chevron1"></div>
                     <div class="chevron chevron1"></div>
-                    <div class="chevron "></div>
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+
 
                     <!-- <span class="text text-dark">Scroll down</span> -->
                   </div>
@@ -177,7 +174,7 @@
                                     iure praesentium minima.</p>
                             </div>
                         </div>
-                        <div class="first_card col-lg-4 col-md-4 col-sm-6">
+                        <div class="first_card card_invincible_mobile col-lg-4 col-md-4 col-sm-6">
                             <div class="icon_title d-flex">
                                 <div class="first_icon">
                                     <i class="fa-brands fa-google"></i>
@@ -190,7 +187,7 @@
                                     iure praesentium minima.</p>
                             </div>
                         </div>
-                        <div class="first_card col-lg-4 col-md-4 col-sm-6">
+                        <div class="first_card card_invincible_mobile col-lg-4 col-md-4 col-sm-6">
                             <div class="icon_title d-flex">
                                 <div class="first_icon">
                                     <i class="fa-solid fa-envelope"></i>
@@ -203,7 +200,7 @@
                                     iure praesentium minima.</p>
                             </div>
                         </div>
-                        <div class="first_card col-lg-4 col-md-4 col-sm-6">
+                        <div class="first_card card_invincible_mobile col-lg-4 col-md-4 col-sm-6">
                             <div class="icon_title d-flex">
                                 <div class="first_icon">
                                     <i class="fa-solid fa-magnifying-glass"></i>

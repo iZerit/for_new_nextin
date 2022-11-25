@@ -30,33 +30,37 @@ var phoneMask = IMask(
 
 
 
+// for scrool bottom invisible 
+
+$(document).ready(function(){
+
+
+  $(window).scroll(function(){
+      if(this.scrollY > 400){
+          $('#scrool_bottom').hide();
+      }else{
+          $('#scrool_bottom').show();
+      }
+
+// for scrool bottom invisible 
+
+
+      $(window).scroll(function(){
+        if(this.scrollY > 300){
+          $('#btn-back-to-top').show();
+        }else{
+          $('#btn-back-to-top').hide();
+        }
+      })
+
+
+      $("#btn-back-to-top").click(function(){
+        $(window).scrollTop(0);
+      })
+
+  })
 
 
 
+});
 
-
-      //Get the button
-let mybutton = document.getElementById("btn-back-to-top");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
-scrollFunction();
-};
-
-function scrollFunction() {
-if (
-document.body.scrollTop > 40 ||
-document.documentElement.scrollTop > 40
-) {
-mybutton.style.display = "block";
-} else {
-mybutton.style.display = "none";
-}
-}
-// When the user clicks on the button, scroll to the top of the document
-mybutton.addEventListener("click", backToTop);
-
-function backToTop() {
-document.body.scrollTop = 0;
-document.documentElement.scrollTop = 0;
-}
