@@ -6,15 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>for new nextin</title>
+
+    <!-- Google fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Roboto:ital,wght@0,900;1,400&display=swap" rel="stylesheet">
+
+    <!-- Google fonts -->
+
+
+<!-- bootstrap  -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+
+<!-- bootstrap  -->
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="icon" href="./img/ol_logo-1140x380.png">
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
@@ -24,6 +36,50 @@
 </head>
 
 <body>
+
+
+    <header class="site-header sticky-top"  id="Home">
+        <nav class="navbar navbar-light">
+          <div class="container">
+            <a class="logo-img" href="#"><img class="img-fluid" src="./img/logo.png" alt=""></a>
+            <button class="shadow-none navbar-toggler navbar-toggler-but custom-toggler" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header bg-light">
+                <a href="#" class="offcanvas-title "><img src="" alt=""></a>
+                <button type="button" class="btn-close text-reset close-but flex-end" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body bg-light">
+                <ul class="nav-pills navbar-nav justify-content-end">
+    
+                  <li class="nav-item">
+                    <a class="sitenav-item-link" href="#">Bosh sahifa</a>
+                  </li>
+                 
+                  <li class="nav-item">
+                    <a class="sitenav-item-link" href="./team.html">Jamoa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="sitenav-item-link" href="./services.html">Hizmatlar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="sitenav-item-link" href="./contact.html">Aloqa</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header> 
+
+
+
+
+
+
     <section class="new_first_blog container">
         <div class="new_inner_blog">
             <div class="new_inner_title text-center mt-4">
@@ -35,13 +91,22 @@
                         Backend dasturchi, Mobile dasturchilar va bundan tashqari Grafik Dizaynerlar faoliyat olib bormoqda. </p>
                 </div>
                 <div class="img_div_first col-lg-6 col-md-6 col-sm-12">
-                    <img class="img-fluid" src="img/banner-removebg-preview.png" alt="">
+                    <img class="img-fluid" src="img/blog_banner.png" alt="">
                 </div>
             </div>
+            <div class="scrool_div mb-5 ">
+                <div class="scrool_down">
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+                    <!-- <span class="text text-dark">Scroll down</span> -->
+                  </div>
+            </div>
+            
         </div>
     </section>
 
-    <section class="container mt-5">
+    <section class="container service_section">
         <div class="services_div">
             <div class="services_inner_div">
                 <div class="service_first_row">
@@ -181,7 +246,7 @@
     </section>
 
     <section class="form_section container mb-5">
-            <div class="d-flex row justify-content-between">
+            <div class="d-flex row justify-content-between align-items-center">
                 <div class="form_inner col-lg-6 col-md-6 col-sm-12">
                     <form action="" class="form">
                         <h1 class="text-center">Biz bilan bog'lanish</h1>
@@ -197,11 +262,9 @@
 
                         <div class="form_buttons d-flex justify-content-between">
                             <button class="form_button btn service_sec_but mt-3 mb-3">Yuborish</button> 
-                            <button  id="show_div_but"  type="button" class=" btn service_sec_but mt-3 mb-3 form_second_button">Xaritada ko'rish</button>
-                            <button  id="hide_div_but"  type="button"  class=" btn service_sec_but mt-3 mb-3  hide_map">Xaritani yopish</button>
-                           
+                            <button  id="show_div_but" type="button" class="btn service_sec_but mt-3 mb-3 form_second_button">Xaritada ko'rish</button>
+                            <button  id="hide_div_but" type="button" class="btn service_sec_but mt-3 mb-3 hide_map">Xaritani yopish</button>
                         </div>
-                
                     </form>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 map_div" id="map_divv">
