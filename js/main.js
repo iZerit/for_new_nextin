@@ -14,6 +14,7 @@ var phoneMask = IMask(
             $("#hide_div_but").show();
         });
 
+        
         $("#hide_div_but").click(function(){
             $("#show_div_but").show();
             $("#map_divv").hide();
