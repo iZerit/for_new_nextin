@@ -208,7 +208,7 @@ iframe{
 
 
 .form h1 {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
 }
 
 
@@ -235,7 +235,7 @@ iframe{
     height: 24px;
   }
   
-  .chevron {
+  .chevron{
     position: absolute;
     width: 28px;
     height: 8px;
@@ -260,6 +260,16 @@ iframe{
     height: 100%;
     width: 51%;
     background: rgb(34, 34, 73);
+  }
+
+  .chevron1:before,
+  .chevron1:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #ff1d1d;
   }
   
   .chevron:before {
@@ -305,6 +315,37 @@ iframe{
 
 
 
+/* scrool to top  */
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    }
+
+
+    .to_top_btn{
+        background-color: rgb(34, 34, 73);
+        transition: all .4s ease;
+    }
+
+    .to_top_btn:hover{
+        background-color: #ff1d1d;
+        color: rgb(34, 34, 73);
+
+    }
+
+    .to_top_btn:hover i{
+        color:rgb(34, 34, 73)
+    }
+
+    .to_top_btn i {
+        color: #ff1d1d;
+    }
+
+
+/* scrool to top   */
 
 
 
