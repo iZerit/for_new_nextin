@@ -62,10 +62,12 @@ var phoneMask = IMask(
 
 
 
-// for scrool bottom invincible 
+
 
 $(document).ready(function(){
 
+
+// for scrool bottom invincible 
 
   $(window).scroll(function(){
       if(this.scrollY > 400){
@@ -75,6 +77,7 @@ $(document).ready(function(){
       }
 
 // for scrool bottom invincible 
+
 
 
 
@@ -91,6 +94,9 @@ $(document).ready(function(){
 
 
 
+
+    // for scrool top ^^^^^^^^^^
+
       $("#btn-back-to-top").click(function(){
         $(window).scrollTop(0).animate;
       })
@@ -98,7 +104,7 @@ $(document).ready(function(){
 
 
 
-      // for scrool top ^^^^^^^^^^
+    // for scrool top ^^^^^^^^^^
 
 
 })
@@ -108,7 +114,7 @@ $(document).ready(function(){
 });
 
 AOS.init({
-  offset: 70,
+  offset: 80,
   duration: 1000
   });
 
