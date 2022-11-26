@@ -92,7 +92,7 @@ $(document).ready(function(){
 
 
       $("#btn-back-to-top").click(function(){
-        $(window).scrollTop(0);
+        $(window).scrollTop(0).animate;
       })
 
 
