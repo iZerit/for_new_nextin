@@ -102,11 +102,21 @@ a{
 
 
 .new_first_blog{
-  /* width: 100%; */
+  width: 100%;
   height: 100vh;
-  /* position: relative; */
-  overflow: hidden;
-  text-align: center;
+  position: relative;
+  /* overflow: hidden; */
+  /* text-align: center; */
+  align-items: center;
+  align-self: center;
+}
+
+.new_inner_blog{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  /* overflow: hidden; */
+  /* text-align: center; */
   align-items: center;
   align-self: center;
 }
