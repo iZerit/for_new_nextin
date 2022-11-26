@@ -104,10 +104,11 @@ a{
 .new_first_blog{
   width: 100%;
   height: 100vh;
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
-  /* color: #FFF; */
   text-align: center;
+  align-items: center;
+  align-self: center;
 }
 
 
