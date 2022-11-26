@@ -418,4 +418,8 @@ iframe{
     .card_invincible_mobile{
         display: none;
     }
+
+    .new_inner_blog{
+      top: 0;
+    }
 }
