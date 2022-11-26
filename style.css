@@ -7,6 +7,15 @@
 
 /* navbar  start */
 
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+
 .site-header {
     /* background-color: rgb(90, 82, 82); */
     background-color: whitesmoke;
@@ -107,7 +116,7 @@
     margin: 10px 20px 0 10px;
     text-align: center;
     position: relative;
-    transition: .6s;
+    transition: .7s;
 }
 
 .first_icon::before{
@@ -128,17 +137,36 @@
 }
 
 .first_card:hover .first_icon{
-    color: rgb(34, 34, 73);
-    background: #ff1d1d;
+   color: rgb(34, 34, 73);
+   background: #ff1d1d;
+}
+
+.first_card{
+  margin-top : 45px;
+}
+
+.card_text a{
+  color: #ff1d1d;
+  font-weight: 700;
+  transition: all .7s ease;
+}
+
+.card_text a:hover{
+  color: rgb(34, 34, 73);
 }
 
 
 
 /* service  */
 
-.service_section{
+
+
+/* .service_section{
     margin-top: 23%;
-}
+  } */
+
+
+
 
 
 .service_sec_but{
@@ -207,7 +235,7 @@ iframe{
 
 
 .blogss{
-    height: 390px;
+    height: ;
 }
 
 
@@ -215,7 +243,7 @@ iframe{
 /* scrool  */
 
 .scrool_div{
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
     justify-content: center;
     align-items: center;
