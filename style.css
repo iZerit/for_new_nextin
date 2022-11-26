@@ -14,7 +14,9 @@ a{
 
 
 
-
+div{
+  padding-right: 0;
+}
 
 .site-header {
     /* background-color: rgb(90, 82, 82); */
