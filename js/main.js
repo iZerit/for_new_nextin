@@ -27,63 +27,24 @@ var phoneMask = IMask(
       });
 
 
-// // scrool top vvvvvvvv
-// let mybutton = document.getElementById("btn-back-to-top");
-
-// // When the user scrolls down 20px from the top of the document, show the button
-// window.onscroll = function () {
-// scrollFunction();
-// };
-
-// function scrollFunction() {
-// if (
-// document.body.scrollTop > 20 ||
-// document.documentElement.scrollTop > 20
-// ) {
-// mybutton.style.display = "block";
-// } else {
-// mybutton.style.display = "none";
-// }
-// }
-// // When the user clicks on the button, scroll to the top of the document
-// mybutton.addEventListener("click", backToTop);
-
-// function backToTop() {
-// document.body.scrollTop = 0;
-// document.documentElement.scrollTop = 0;
-// }
-
-// // scrool top  ^^^^^ 
-
-
-
-
-
-
-
-
-
 
 $(document).ready(function(){
 
 
 // for scrool bottom invincible 
-
   $(window).scroll(function(){
       if(this.scrollY > 400){
           $('#scrool_bottom').hide();
       }else{
           $('#scrool_bottom').show();
       }
-
 // for scrool bottom invincible 
 
+})
 
 
 
-
-// for scrool top vvvvvvvvv
-
+// for scrool top show and hide vvvvvvvvv
       $(window).scroll(function(){
         if(this.scrollY > 50){
           $('#btn-back-to-top').show();
@@ -91,23 +52,18 @@ $(document).ready(function(){
           $('#btn-back-to-top').hide();
         }
       })
+// for scrool top show and hide^^^^^^^^^^
 
 
 
-
-    // for scrool top ^^^^^^^^^^
-
+      // for scrool top on click
       $("#btn-back-to-top").click(function(){
         $(window).scrollTop(0).animate;
-      })
+   x   })
+      // for scrool top on click
 
 
 
-
-    // for scrool top ^^^^^^^^^^
-
-
-})
 
 
   
