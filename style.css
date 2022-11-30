@@ -5,6 +5,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+html{
+  scroll-behavior: smooth;
+}
+
 /* navbar  start */
 
 
@@ -12,6 +17,9 @@ a{
   text-decoration: none;
 }
 
+li{
+  list-style: none;
+}
 
 /* 
 div{
@@ -413,7 +421,130 @@ iframe{
 
 
 
+/* footer  */
 
+
+footer{
+  background-color: rgb(34, 34, 73);
+  /* height: 500px; */
+  color: white;
+}
+
+.footer_logo img{
+  width: 200px;
+  height: 70px;
+}
+
+
+
+.footer_link_txt{
+  position: relative;
+}
+
+
+.footer_link_txt h3{
+  padding-bottom: 15px;
+  color: white;
+}
+
+
+.footer_links{
+  display: flex;
+}
+
+.footer_links i{
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: all .7s ease;
+}
+
+  
+.footer_link_txt h3::before{
+  position: absolute;
+  width: 55px;
+  height: 3px;
+  background: #ff1d1d;
+  content: "";
+  left: 0;
+  bottom: 0;
+}
+
+.footer_service_list{
+  padding-left: 0;
+}
+
+.footer_service_list li {
+  padding-top: 10px;
+  color: white;
+}
+
+.footer_service_list li a{
+  color: white;
+  transition: all .7s ease;
+}
+
+
+.footer_links a:hover i{
+  color: #ff1d1d;
+}
+
+.footer_service_list a:hover {
+  color: #ff1d1d;
+}
+
+
+.footer_service_list i{
+  color: #ff1d1d;
+}
+
+.footer_service_list a {
+  padding-left: 10px;
+}
+
+
+.footer_btn{
+  padding: 9px;
+  background-color: rgb(34, 34, 73);
+  border: 1px solid;
+  color:white;
+  transition: all .4s ease;
+}
+
+.footer_btn:hover{
+  color:#ff1d1d;
+  border-color: rgb(44, 44, 79);
+}
+
+
+
+
+
+
+hr{
+  border-top: 2px solid rgb(179, 174, 174);
+}
+
+.copyright p{
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer  */
 
 
 

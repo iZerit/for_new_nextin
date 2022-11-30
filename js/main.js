@@ -23,8 +23,17 @@ var phoneMask = IMask(
         })
 
 
+       
+       
+
+     
+
+
         
       });
+
+
+      
 
 
 
@@ -59,12 +68,23 @@ $(document).ready(function(){
       // for scrool top on click
       $("#btn-back-to-top").click(function(){
         $(window).scrollTop(0).animate;
-   x   })
+      })
       // for scrool top on click
 
 
 
 
+      $("#footer_btn_map").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#formsection").offset().top - 200
+        }, 800);
+    });
+  
+
+
+  
+
+    
 
   
 });
@@ -79,3 +99,4 @@ AOS.init({
   $(window).on("load",function(){
     $(".loading").fadeOut("slow");
 });
+
