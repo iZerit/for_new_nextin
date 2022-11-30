@@ -663,9 +663,13 @@ hr{
     text-align: center;
     
 
-    }
-#home2{
+    } 
+#home2_for_mobile_menu{
   display: none;
+}
+
+#home2_for_mobile{
+  display: block;
 }
 
 }

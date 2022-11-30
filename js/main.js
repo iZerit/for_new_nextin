@@ -116,3 +116,4 @@ AOS.init({
   $(window).on("load",function(){
     $(".loading").fadeOut("slow");
 });
+
