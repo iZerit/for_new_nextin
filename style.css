@@ -26,19 +26,12 @@ div{
   padding-right: 0;
 } */
 
-.site-header {
-    /* background-color: rgb(90, 82, 82); */
-    background-color: whitesmoke;
-    /* padding-top: 10px; */
-    /* padding-bottom: 10px;  */
-    /* border-bottom: 3px solid red; */
-  }
   
   /* BURGER MENU */
   .custom-toggler .navbar-toggler-icon {
     font-weight: 900;
     box-shadow: none;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(34,34,73,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,29,29)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
   
   .logo-img img {
@@ -57,9 +50,57 @@ div{
     color: red;
     font-size: 30px;
   }
+
+
+  .site-header{
+    background-color: rgb(34, 34, 73);
+  }
   
 
+  .offcanvas.offcanvas-end{
+    width: 300px;
+  }
 
+  .offcanvas-header{
+    width: 300px;
+  }
+
+  .nav-item {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+.offcanvas-nav-item{
+  font-size: 25px;
+}
+
+
+  .nav-pills {
+    align-items: center;
+    margin-top: 30px;
+}
+
+.nav-link{
+color:white;
+  }
+
+.nav-link:hover{
+    color: #ff1d1d;
+}
+
+.nav-link:focus{
+  color: #ff1d1d;
+}
+
+/* 
+#home1{
+  display: none;
+} */
+
+#home2{
+  display: none;
+}
 
 /* navbar  end ^^^^^^^*/
 
@@ -227,13 +268,13 @@ iframe{
 }
 
   
-  .scrool_down {
+.scrool_down {
     position: relative;
     width: 24px;
     height: 24px;
   }
   
-  .chevron{
+.chevron{
     position: absolute;
     width: 28px;
     height: 8px;
@@ -242,16 +283,16 @@ iframe{
     animation: move 3s ease-out infinite;
   }
   
-  .chevron:first-child {
+.chevron:first-child {
     animation: move 3s ease-out 1s infinite;
   }
   
-  .chevron:nth-child(2) {
+.chevron:nth-child(2) {
     animation: move 3s ease-out 2s infinite;
   }
   
-  .chevron:before,
-  .chevron:after {
+.chevron:before,
+.chevron:after {
     content: ' ';
     position: absolute;
     top: 0;
@@ -324,7 +365,7 @@ iframe{
 
 
     .to_top_btn{
-        background-color: rgb(34, 34, 73);
+      background-color: #ff1d1d;
         transition: all .4s ease;
     }
 
@@ -335,20 +376,16 @@ iframe{
     }
 
     .to_top_btn:hover i{
-        color:rgb(34, 34, 73)
+        color:rgb(34, 34, 73);
     }
 
     .to_top_btn i {
-        color: #ff1d1d;
+      color: rgb(34, 34, 73);
+
     }
 
 
 /* scrool to top   */
-
-
-/* .row{
-  margin-right: 0;
-} */
 
 
 
@@ -567,6 +604,26 @@ hr{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media section start  */
 
 
 

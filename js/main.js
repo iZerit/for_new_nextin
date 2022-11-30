@@ -57,11 +57,23 @@ $(document).ready(function(){
       $(window).scroll(function(){
         if(this.scrollY > 50){
           $('#btn-back-to-top').show();
+        
         }else{
           $('#btn-back-to-top').hide();
+      
+        }
+        if(this.scrollY > 200){
+          $('#home2').show();
+          $('#home1').hide();
+        }else{
+          $('#home2').hide();
+          $('#home1').show();
         }
       })
 // for scrool top show and hide^^^^^^^^^^
+
+
+
 
 
 
@@ -76,8 +88,8 @@ $(document).ready(function(){
 
       $("#footer_btn_map").click(function() {
         $('html, body').animate({
-            scrollTop: $("#formsection").offset().top - 200
-        }, 900);
+            scrollTop: $("#formsection").offset().top - 150
+        }, 700);
     });
   
 
