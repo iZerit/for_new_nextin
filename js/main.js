@@ -80,7 +80,7 @@ $(document).ready(function(){
       // for scrool top on click
       $("#btn-back-to-top").click(function(){
         $(window).scrollTop(0).animate;
-      })
+      })  
       // for scrool top on click
 
    
