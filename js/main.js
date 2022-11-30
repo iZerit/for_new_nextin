@@ -92,6 +92,11 @@ $(document).ready(function(){
         $('html, body').animate({
             scrollTop: $("#formsection").offset().top - 150
         }, 500);
+        $("#map_divv").show();
+        $("#hide_div_but").show();
+        $("#show_div_but").hide();
+
+
     });
     // footer to map  ^^^^^^^^^
 
