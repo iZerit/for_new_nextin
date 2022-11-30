@@ -77,7 +77,7 @@ $(document).ready(function(){
       $("#footer_btn_map").click(function() {
         $('html, body').animate({
             scrollTop: $("#formsection").offset().top - 200
-        }, 800);
+        }, 900);
     });
   
 
