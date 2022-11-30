@@ -10,12 +10,15 @@ html{
   scroll-behavior: smooth;
 }
 
-html, body{
-  display: block;
-  margin: 0px;
-  padding: 0px;
+.new_first_blog, .service_section, .form_section, .footere{
   overflow-x: hidden;
-  width: 100%;
+  width: 100%; 
+}
+
+
+::selection{
+  background-color: #ff1d1d;
+  color: white;
 }
 
 
@@ -97,9 +100,9 @@ div{
 }
 
 
-  .nav-pills {
-    align-items: center;
-    margin-top: 30px;
+.nav-pills {
+  align-items: center;
+  margin-top: 30px;
 }
 
 .nav-link{
@@ -120,6 +123,7 @@ color:white;
 
 
 
+
 /* 
 #home1{
   display: none;
@@ -131,13 +135,13 @@ color:white;
 
 /* navbar  end ^^^^^^^*/
 
- .new_first_blog{
+.new_first_blog{
   width: 100%;
   height: 100vh;
   position: relative;
-   overflow: hidden; 
-   align-items: center; 
-   align-self: center; 
+  overflow: hidden; 
+  align-items: center; 
+  align-self: center; 
 }
 
 .new_inner_blog{
@@ -153,20 +157,20 @@ color:white;
 
 
 .new_inner_title h1{
-    color: rgb(34, 34, 73);
+  color: rgb(34, 34, 73);
 }
 
 .first_icon{
-    background: rgb(34, 34, 73);
-    color: #ff1d1d;
-    font-size: 30px;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    margin: 10px 20px 0 10px;
-    text-align: center;
-    position: relative;
-    transition: .7s;
+  background: rgb(34, 34, 73);
+  color: #ff1d1d;
+  font-size: 30px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  margin: 10px 20px 0 10px;
+  text-align: center;
+  position: relative;
+  transition: .7s;
 }
 
 .first_icon::before{
@@ -290,12 +294,13 @@ iframe{
 
 
 
+
 /* scrool  */
 
 .scrool_div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
   
