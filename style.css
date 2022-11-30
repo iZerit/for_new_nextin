@@ -56,6 +56,18 @@ div{
     background-color: rgb(34, 34, 73);
   }
   
+  .dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+
+
+
+.dropdown-item{
+  white-space: break-spaces;
+}
 
   .offcanvas.offcanvas-end{
     width: 300px;
@@ -92,6 +104,12 @@ color:white;
 .nav-link:focus{
   color: #ff1d1d;
 }
+
+.nav-link:active{
+  color: #ff1d1d;
+}
+
+
 
 /* 
 #home1{
@@ -646,6 +664,10 @@ hr{
     
 
     }
+#home2{
+  display: none;
+}
+
 }
 
 

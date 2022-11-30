@@ -83,32 +83,36 @@ $(document).ready(function(){
       })
       // for scrool top on click
 
+   
 
 
 
+      // footer to map vvvvvvvvv
       $("#footer_btn_map").click(function() {
         $('html, body').animate({
             scrollTop: $("#formsection").offset().top - 150
-        }, 700);
+        }, 500);
     });
-  
+    // footer to map  ^^^^^^^^^
 
 
-  
 
     
 
   
 });
 
+
+
+// aos vvvvvvvvvvv
+
 AOS.init({
   offset: 80,
   duration: 1000
   });
 
-
+// aos ^^^^^^^^^^
   
   $(window).on("load",function(){
     $(".loading").fadeOut("slow");
 });
-
