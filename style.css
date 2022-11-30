@@ -10,6 +10,15 @@ html{
   scroll-behavior: smooth;
 }
 
+html, body{
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+
 /* navbar  start */
 
 
@@ -205,6 +214,10 @@ color:white;
 .service_section{
     margin-top: 23%;
   }  */
+
+ 
+
+
 
 
 
