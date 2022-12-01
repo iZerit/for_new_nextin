@@ -427,65 +427,74 @@ iframe{
 
 /* loader  */
 
-/* Absolute Center Spinner */
-.loading {
-  position: fixed;
-  z-index: 9999;
-  height: 2em;
-  width: 2em;
-  overflow: visible;
-  margin:  auto;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-/* Transparent Overlay */
-.loading:before {
-  content: '';
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+.loader_div{
+  background: rgb(29, 28, 28);
+  position: absolute;
+  /* overflow: hidden; */
   height: 100%;
-  background-color: rgb(0, 0, 0);
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  position: fixed;
 }
 
 
-.loading:not(:required):after {
-  content: '';
-  display: inline-block;
-  margin: 0 auto;
-  font-size: 10px;
-  width: 1em;
-  height: 1em;
-  margin-top: -0.5em;
-  -webkit-animation: spinner 2500ms infinite linear;
-  animation: spinner 2500ms infinite linear;
-  border-radius: 0.5em;
-  box-shadow: rgb(34, 34, 73) 1.5em 0 0 0, rgb(34, 34, 73) 1.1em 1.1em 0 0, rgb(34, 34, 73) 0 1.5em 0 0, rgb(34, 34, 73) -1.1em 1.1em 0 0, rgb(34, 34, 73) -1.5em 0 0 0, rgb(34, 34, 73) -1.1em -1.1em 0 0, rgb(34, 34, 73) 0 -1.5em 0 0, rgb(34, 34, 73) 1.1em -1.1em 0 0;
+.loader {
+  position: absolute;
+  margin: -18px 0 0 -18px;
+  border: 3.6px solid #222249;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 36px;
+  height: 36px;
+  left: 50%;
+  top: 50%;
+  animation: loader-spin 2s linear infinite reverse;
+  /* filter: url(#goo); */
+  box-shadow: 0 0 0 1px #222249 inset;
+}
+.loader:before {
+  content: "";
+  position: absolute;
+  -webkit-animation: loader-spin 2s cubic-bezier(0.59, 0.25, 0.4, 0.69) infinite;
+          animation: loader-spin 2s cubic-bezier(0.59, 0.25, 0.4, 0.69) infinite;
+  background: #ff1d1d;
+  transform-origin: top center;
+  border-radius: 50%;
+  width: 150%;
+  height: 150%;
+  top: 50%;
+  left: -12.5%;
 }
 
-/* Animation */
 
-@keyframes spinner {
+
+
+
+@-webkit-keyframes loader-spin {
   0% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
+
+@keyframes loader-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
 
 
 /* loader  */

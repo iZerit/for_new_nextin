@@ -119,6 +119,6 @@ AOS.init({
 // aos ^^^^^^^^^^
   
   $(window).on("load",function(){
-    $(".loading").fadeOut("slow");
+    $(".loader_div").fadeOut("slow");
 });
 
