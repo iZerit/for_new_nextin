@@ -1,13 +1,15 @@
+// inputmask 
 var phoneMask = IMask(
     document.getElementById('phone-mask'), {
       mask: '+{998}(00)000-00-00'
     });
+// inputmask 
 
 
 
     $(document).ready(function(){
 
-
+        // map show for mobile
         $("#show_div_but").click(function(){
             $("#map_divv").show();
             $("#show_div_but").hide();
@@ -21,6 +23,7 @@ var phoneMask = IMask(
             $("#hide_div_but").hide();
 
         })
+        // map show for mobile
 
 
        
