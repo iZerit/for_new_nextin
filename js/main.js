@@ -120,8 +120,26 @@ AOS.init({
   });
 
 // aos ^^^^^^^^^^
+
+
+
+
+
+
+
+// loaderni ochirish vvvvvvvvvvvv
   
   $(window).on("load",function(){
     $(".loader_div").fadeOut("slow");
 });
+
+
+// loaderni ochirish ^^^^^^^^^^^^
+
+
+
+
+
+
+
 
