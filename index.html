@@ -412,7 +412,8 @@
     <section class="form_section container mb-5" id="formsection">
         <div class="d-flex row justify-content-between align-items-center">
             <div class="form_inner col-lg-6 col-md-6 col-sm-12">
-                <form action="" class="form" data-netlify="true">
+                <form action="" class="form" data-netlify="true"  name="contact"
+  method="POST" data-netlify-recaptcha="true">
                     <h1 class="text-center">Biz bilan bog'lanish</h1>
                     <div class="form_input">
                         <input name="name" type="text" placeholder="ism" class="form-control ">
@@ -425,6 +426,7 @@
                             class="form-control">
                     </div>
                     <div class="form_buttons d-flex justify-content-between">
+                         <div data-netlify-recaptcha="true"></div>
                         <button class="form_button btn service_sec_but mt-3 mb-3">Yuborish</button>
                         <button id="show_div_but" type="button"
                             class="btn service_sec_but mt-3 mb-3 form_second_button">Xaritada ko'rish</button>
