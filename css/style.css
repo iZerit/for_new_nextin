@@ -10,7 +10,7 @@ html{
   scroll-behavior: smooth;
 }
 
-.new_first_blog, .service_section, .form_section, .footere{
+.new_first_blog, .service_section, .footere{
   overflow-x: hidden;
   width: 100%; 
 }
