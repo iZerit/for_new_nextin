@@ -77,8 +77,31 @@ div{
 
 
 
+.sitenav-item-link{
+  color: #ffff;
+}
+
+.sitenav-item-link:hover {
+  color: #ff1d1d;
+}
+
+
 .dropdown-item{
   white-space: break-spaces;
+}
+
+
+.navbar-nav .dropdown-menu{
+  position: absolute;
+}
+
+.dropdown-menu-offcansvas{
+  background-color: #222249;
+  color: #fff;
+}
+
+.dropdown-menu-offcansvas a{
+  color:#fff;
 }
 
   .offcanvas.offcanvas-end{
@@ -87,7 +110,13 @@ div{
 
   .offcanvas-header{
     width: 300px;
+    background-color: #222249;
   }
+
+.offcanvas-body{
+  background-color: #222249;
+}
+
 
   .nav-item {
     padding-top: 10px;

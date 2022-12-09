@@ -38,6 +38,10 @@
     <!-- inputmask  -->
   
 
+    <!-- recaptcha  -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- recaptcha  -->
+
     <link rel="icon" href="./img/ol_logo-1140x380.png">
 
     <link rel="stylesheet" href="./css/style.css">
@@ -130,12 +134,12 @@
 
     <!-- offcanvas for header burger menu -->
     <div class="offcanvas offcanvas-end" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header bg-light">
+        <div class="offcanvas-header">
             <a href="#" class="offcanvas-title "><img src="" alt=""></a>
             <button type="button" class="btn-close text-reset close-but flex-end" 
             data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body bg-light">
+        <div class="offcanvas-body">
             <ul class="nav-pills navbar-nav justify-content-end">
 
                 <li class="nav-item offcanvas-nav-item">
@@ -151,11 +155,11 @@
                 <li class="nav-item offcanvas-nav-item">
                     <a class="sitenav-item-link" href="./contact.html">Narxlar</a>
                 </li>
-                <li class="nav-item dropdown offcanvas-nav-item " >
+                <li class="nav-item dropdown offcanvas-nav-item offcanvas-dropdown-menu" >
                     <a class="nav-link dropdown-toggle" href="#"  data-bs-toggle="dropdown" aria-expanded="false">
                         Xizmatlar
                     </a>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu dropdown-menu-offcansvas">
                       <li><a class="dropdown-item" href="#">Web Design</a></li>
                       <li><a class="dropdown-item" href="#">Web Saytlar</a></li>
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -374,7 +378,7 @@
 
         <!-- Bizning ishlar  -->
 
-        <section class="works mt-5 mb-5">
+        <!-- <section class="works mt-5 mb-5">
             <div class="container">
                 <div class="works_inner">
                     <div class="works_title services_title text-center"><h2>Bizning ishlar</h2></div>
@@ -395,7 +399,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
 
@@ -425,7 +429,7 @@
                         <input name="phone" id="phone-mask" type="text" placeholder="Telefon raqam"
                             class="form-control">
                     </div>
-                         <div class="mt-3" data-netlify-recaptcha="true"></div>
+                    <div class="g-recaptcha" data-sitekey="your_site_key"></div>
                     
                     <div class="form_buttons d-flex justify-content-between">
                         <button class="form_button btn service_sec_but mt-3 mb-3">Yuborish</button>
