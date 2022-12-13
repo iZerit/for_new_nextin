@@ -127,7 +127,7 @@ AOS.init({
 
 $(document).ready(function(){ 
   const $mapButton = $("#footer_btn_map")
-  const $formDiv = $("#formsection")~
+  const $formDiv = $("#formsection")
 
 
 
