@@ -86,24 +86,6 @@ $(document).ready(function(){
       })  
       // for scrool top on click
 
-   
-
-
-
-      // footer to map vvvvvvvvv
-      $("#footer_btn_map").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#formsection").offset().top - 150
-        }, 500);
-        $("#map_divv").show();
-        $("#hide_div_but").show();
-        $("#show_div_but").hide();
-
-
-    });
-    // footer to map  ^^^^^^^^^
-
-
 
     
 
@@ -143,3 +125,24 @@ AOS.init({
 
 
 
+$(document).ready(function(){ 
+  const $mapButton = $("#footer_btn_map")
+  const $formDiv = $("#formsection")~
+
+
+
+     // footer to map vvvvvvvvv
+     $mapButton.click(function() {
+      $('html, body').animate({
+          scrollTop: $formDiv.offset().top -150
+      }, 500);
+
+      $("#map_divv").show();
+      $("#hide_div_but").show();
+      $("#show_div_but").hide();
+    
+
+  });
+  // footer to map  ^^^^^^^^^
+
+})

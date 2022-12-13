@@ -79,6 +79,7 @@ div{
 
 .sitenav-item-link{
   color: #ffff;
+  transition: all .7s ease;
 }
 
 .sitenav-item-link:hover {
@@ -90,10 +91,6 @@ div{
   white-space: break-spaces;
 }
 
-
-.navbar-nav .dropdown-menu{
-  position: absolute;
-}
 
 .dropdown-menu-offcansvas{
   background-color: #222249;
