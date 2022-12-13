@@ -66,11 +66,11 @@ $(document).ready(function(){
       
         }
         if(this.scrollY > 200){
-          $('#home2').show();
-          $('#home1').hide();
+          $('.home2').show();
+          $('.home1').hide();
         }else{
-          $('#home2').hide();
-          $('#home1').show();
+          $('.home2').hide();
+          $('.home1').show();
         }
       })
 // for scrool top show and hide^^^^^^^^^^
@@ -117,6 +117,7 @@ AOS.init({
 
 
 // loaderni ochirish ^^^^^^^^^^^^
+
 
 
 

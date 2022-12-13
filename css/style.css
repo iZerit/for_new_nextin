@@ -150,12 +150,12 @@ color:white;
 
 
 
-/* 
-#home1{
+
+/* .home1{
   display: none;
 } */
 
-#home2{
+.home2{
   display: none;
 }
 
@@ -465,6 +465,18 @@ iframe{
   position: fixed;
 }
 
+.loader_div_service{
+  background: rgb(29, 28, 28);
+  position: absolute;
+  /* overflow: hidden; */
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  position: fixed;
+}
+
 
 .loader {
   position: absolute;
@@ -739,11 +751,11 @@ hr{
     
 
     } 
-#home2_for_mobile_menu{
+.home2_for_mobile_menu{
   display: none;
 }
 
-#home2_for_mobile{
+.home2_for_mobile{
   display: block;
 }
 
