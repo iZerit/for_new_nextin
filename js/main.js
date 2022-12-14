@@ -135,12 +135,12 @@ $(document).ready(function(){
      // footer to map vvvvvvvvv
      $mapButton.click(function() {
       $('html, body').animate({
-          scrollTop: $formDiv.offset().top -150
+          scrollTop: $formDiv.offset().top -250
       }, 500);
 
-      $("#map_divv").show();
-      $("#hide_div_but").show();
-      $("#show_div_but").hide();
+      $("#map_divv").show()
+      $("#hide_div_but").show()
+      $("#show_div_but").hide()
     
 
   });
