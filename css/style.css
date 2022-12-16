@@ -476,6 +476,8 @@ color:white;
   text-align: center;
   position: relative;
   transition: .7s;
+  border: 1px solid #ff1d1d;
+  border-radius: 3px;
 }
 
 .first_icon::before{
