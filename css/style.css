@@ -462,7 +462,12 @@ color:white;
 
 
 .new_inner_title h1{
-  color: rgb(34, 34, 73);
+  /* color: rgb(34, 34, 73); */
+  color: #ff1d1d;
+}
+
+.text_div_first p{
+  color: white;
 }
 
 .first_icon{
@@ -477,7 +482,7 @@ color:white;
   position: relative;
   transition: .7s;
   border: 1px solid #ff1d1d;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 .first_icon::before{
