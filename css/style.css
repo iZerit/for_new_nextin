@@ -65,6 +65,7 @@ div{
   }
 
 
+
   .site-header{
     background-color: rgb(34, 34, 73);
   }
@@ -418,13 +419,25 @@ color:white;
 
 .home1{
   z-index: 999;
+  transition: all .7s ease;
+
 }
 
 .home2{
   display: none;
   z-index: 99999999;
+  border-bottom: 1px solid #ff1d1d;
+  border-radius: 15px;
+  transition: all 1s ease;
+}
+
+
+header{
+  transition: all 1s ease;
 
 }
+
+
 
 /* navbar  end ^^^^^^^*/
 
@@ -527,7 +540,7 @@ color:white;
 }
 
 .card_text a:hover{
-  color: rgb(34, 34, 73);
+  color: white;
 }
 
 .services_title h2{
