@@ -415,12 +415,14 @@ color:white;
 
 
 
-/* .home1{
-  display: none;
-} */
+.home1{
+  z-index: 999;
+}
 
 .home2{
   display: none;
+  z-index: 99999999;
+
 }
 
 /* navbar  end ^^^^^^^*/
@@ -464,6 +466,7 @@ color:white;
 .new_inner_title h1{
   /* color: rgb(34, 34, 73); */
   color: #ff1d1d;
+  position: relative;
 }
 
 .text_div_first p{
@@ -526,6 +529,10 @@ color:white;
   color: rgb(34, 34, 73);
 }
 
+.services_title h2{
+  color: #ff1d1d;
+}
+
 
 
 /* hero section  */
@@ -560,19 +567,20 @@ color:white;
     border: none;
     color:white;
     transition: all .4s ease;
+    border: 1px solid #ff1d1d;
 }
 
 .service_sec_but:hover{
-    background-color: #ff1d1d;
-    border: none;
-    color: rgb(34, 34, 73);
+  border: 1px solid #ff1d1d;
+  background-color: #ff1d1d;
+  color: #222249;
 }
 
 
 .form_inner{
     /* margin: 0 auto; */
     width: 400px;
-    color: white;
+    color: #ff1d1d;
 }
 .form_input{
     margin-top: 23px;
@@ -768,7 +776,7 @@ iframe{
   width: 100%;
   left: 0;
   top: 0;
-  z-index: 9999;
+  z-index: 99999;
   position: fixed;
 }
 
