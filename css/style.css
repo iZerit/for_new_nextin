@@ -107,6 +107,12 @@ div{
 .offcanvas.offcanvas-end{
     width: 300px;
     border-radius: 5px;
+    z-index: 9999999999999;
+  }
+
+  .offcanvas{
+    z-index: 9999999999999;
+
   }
 
 .offcanvas-header{
