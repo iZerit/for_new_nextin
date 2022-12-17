@@ -1,0 +1,33 @@
+.services_text {
+    color: white;
+}
+
+.service_section{
+    position: relative;
+}
+
+.service_details_div{
+    color:white;
+    display: flex;
+}
+
+.service_details_div p{
+    padding-left: 20px;
+}
+
+.services_detail_txt p{
+    color: white;
+}
+
+.text_div_first p{
+    color: white;
+}
+
+
+
+
+.img_service_section img{
+    margin: 0 auto;
+    display: block;
+    border-radius: 15px;
+}
