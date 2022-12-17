@@ -783,7 +783,7 @@ iframe{
 /* loader  */
 
 .loader_div{
-  background: rgb(29, 28, 28);
+  background: #14143a;
   position: absolute;
   /* overflow: hidden; */
   height: 100%;
