@@ -32,6 +32,10 @@ $(window).on("load",function(){
 
 
 
+
+
+// aos vvvvvvvvvvv
+
 AOS.init({
   offset: 80,
   duration: 1000
