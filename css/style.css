@@ -55,6 +55,9 @@ div{
    
 }
 
+.btn-close:hover{
+  opacity: 1;
+}
 
   
   .logo-img img {
