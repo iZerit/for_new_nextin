@@ -29,3 +29,11 @@ $(window).on("load",function(){
     $(window).scrollTop(0).animate;
   })  
 // scrool to top ^^^^^^^
+
+
+
+AOS.init({
+  offset: 80,
+  duration: 1000
+  });
+// aos ^^^^^^^^^^

@@ -1,3 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+  }
+  
 .services_text {
     color: white;
 }
@@ -9,6 +23,10 @@
 .service_details_div{
     color:white;
     display: flex;
+}
+
+.services_div{
+    position: relative;
 }
 
 .service_details_div p{
@@ -29,3 +47,14 @@
     display: block;
     border-radius: 15px;
 }
+
+.services_inner_div{
+    position: relative;
+}
+
+
+.service_sectionf,.services_div{
+    overflow: hidden;
+     width: 100%; 
+     position: relative; 
+  }

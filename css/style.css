@@ -12,7 +12,7 @@ html{
 
 .new_first_blog, .service_section, .footere{
   overflow-x: hidden;
-  width: 100%; 
+  width: 100%;
 }
 
 
@@ -112,7 +112,6 @@ div{
 
   .offcanvas{
     z-index: 9999999999999;
-
   }
 
 .offcanvas-header{
@@ -520,10 +519,16 @@ header{
 }
 
 
+
+.icon_title h3:hover{
+  color: #ff1d1d;
+}
+
 .icon_title h3{
     text-transform: uppercase;
     font-size: 24px;
     color: white;
+    transition: all .7s ease;
 }
 
 .first_card:hover .first_icon{
@@ -600,7 +605,7 @@ header{
 .form_inner{
     /* margin: 0 auto; */
     width: 400px;
-    color: #ff1d1d;
+    color: white;
 }
 .form_input{
     margin-top: 23px;
