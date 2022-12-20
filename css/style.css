@@ -59,6 +59,10 @@ div{
   opacity: 1;
 }
 
+.btn-close:focus{
+  box-shadow: none;
+}
+
   
   .logo-img img {
     width: 200px;
