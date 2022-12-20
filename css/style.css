@@ -921,6 +921,8 @@ footer{
   /* height: 500px; */
   color: white;
   position: relative;
+  border-top: 1px solid #ff1d1d;
+  border-radius: 15px;
 }
 
 .footer_logo img{
