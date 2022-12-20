@@ -10,8 +10,9 @@ html{
   scroll-behavior: smooth;
 }
 
-.new_first_blog, .service_section, .footere{
+.new_first_blog, .service_section, .web_programming, .footere{
   overflow-x: hidden;
+  overflow: hidden;
   width: 100%;
 }
 
@@ -658,6 +659,18 @@ iframe{
 
 
 
+/* web programming  */
+.web_programming{
+  position: relative;
+  color: white;
+}
+
+
+
+
+/* web programming  */
+
+
 
 /* scrool  */
 
@@ -917,8 +930,8 @@ iframe{
 
 
 footer{
-  background-color: #222249;  
-  /* height: 500px; */
+  background-color: #222249; 
+  /* height: 500px; */  
   color: white;
   position: relative;
   border-top: 1px solid #ff1d1d;
