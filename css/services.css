@@ -48,7 +48,7 @@ html{
     border-radius: 15px;
 }
 
-.services_inner_div{
+.services_inner_div, .seo_opt{
     position: relative;
 }
 
@@ -57,4 +57,18 @@ html{
     overflow: hidden;
      width: 100%; 
      position: relative; 
+  }
+
+
+.onpage_ul li {
+    color: white;
+}
+
+
+  .onpage_ul li::before{
+    content: "\f35a";
+    color: #ff1d1d;
+    font-size: 15px;
+    font-family: "FontAwesome";
+    margin-right: 15px;
   }
