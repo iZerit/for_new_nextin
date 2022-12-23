@@ -50,6 +50,7 @@ html{
 
 .services_inner_div, .seo_opt{
     position: relative;
+    overflow: hidden;
 }
 
 
@@ -71,4 +72,10 @@ html{
     font-size: 15px;
     font-family: "FontAwesome";
     margin-right: 15px;
+  }
+
+
+
+  .programming_info p, .second{
+    color: white;
   }
