@@ -40,7 +40,7 @@ var phoneMask = IMask(
 
 
 
-// $(document).ready(function(){
+$(document).ready(function(){
 
 
 // // for scrool bottom invincible 
@@ -52,7 +52,7 @@ var phoneMask = IMask(
 //       }
 // // for scrool bottom invincible 
 
-// })
+})
 
     
     $(document).ready(function () {
