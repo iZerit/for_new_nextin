@@ -54,17 +54,29 @@ $(document).ready(function(){
 
 })
 
+    
+    $(document).ready(function () {
+    $(Window).scroll(function(){
+        let scroll = $(this).scrollTop();
+        if(scroll > 300){
+            $('#btn-back-to-top').fadeIn();
+        }else{
+            $('#btn-back-to-top').fadeOut();
+        }
+        console.log(scroll);
+    })
+});
 
 
 // for scrool top show and hide vvvvvvvvv
       $(window).scroll(function(){
-        if(this.scrollY > 50){
-          $('#btn-back-to-top').fadeIn("slow");
+//         if(this.scrollY > 50){
+//           $('#btn-back-to-top').fadeIn("slow");
         
-        }else{
-          $('#btn-back-to-top').fadeOut("slow");
+//         }else{
+//           $('#btn-back-to-top').fadeOut("slow");
       
-        }
+//         }
         if(this.scrollY > 200){
           $('.home2').show();
           $('.home1').hide();
