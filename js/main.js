@@ -46,9 +46,9 @@ $(document).ready(function(){
 // for scrool bottom invincible 
   $(window).scroll(function(){
       if(this.scrollY > 400){
-          $('#scrool_bottom').fadeIn();
+          $('#scrool_bottom').show();
       }else{
-          $('#scrool_bottom').fadeOut();
+          $('#scrool_bottom').hide();
       }
 // for scrool bottom invincible 
 
@@ -59,10 +59,10 @@ $(document).ready(function(){
 // for scrool top show and hide vvvvvvvvv
       $(window).scroll(function(){
         if(this.scrollY > 50){
-          $('#btn-back-to-top').fadeIn();
+          $('#btn-back-to-top').fadeIn("slow");
         
         }else{
-          $('#btn-back-to-top').fadeOut();
+          $('#btn-back-to-top').fadeOut("slow");
       
         }
         if(this.scrollY > 200){
