@@ -43,16 +43,16 @@ var phoneMask = IMask(
 $(document).ready(function(){
 
 
-// for scrool bottom invincible 
-  $(window).scroll(function(){
-      if(this.scrollY > 400){
-          $('#scrool_bottom').show();
-      }else{
-          $('#scrool_bottom').hide();
-      }
-// for scrool bottom invincible 
+// // for scrool bottom invincible 
+//   $(window).scroll(function(){
+//       if(this.scrollY > 400){
+//           $('#scrool_bottom').show();
+//       }else{
+//           $('#scrool_bottom').hide();
+//       }
+// // for scrool bottom invincible 
 
-})
+// })
 
 
 
@@ -63,7 +63,6 @@ $(document).ready(function(){
         
         }else{
           $('#btn-back-to-top').fadeOut("slow");
-      
         }
         if(this.scrollY > 200){
           $('.home2').show();
