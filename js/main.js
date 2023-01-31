@@ -59,10 +59,10 @@ $(document).ready(function(){
 // for scrool top show and hide vvvvvvvvv
       $(window).scroll(function(){
         if(this.scrollY > 50){
-          $('#btn-back-to-top').fadeIn("slow");
+          $('#btn-back-to-top').show();
         
         }else{
-          $('#btn-back-to-top').fadeOut("slow");
+          $('#btn-back-to-top').hide();
         }
         if(this.scrollY > 200){
           $('.home2').show();
